@@ -49,7 +49,7 @@
       {
         "server": "43.134.25.20",
         "serverCredential": "cred_super_secret",
-        "deployPath": "/home/personal-portofolio",
+        "deployPath": "/home/ubuntu/personal-portofolio",
         "execCommand": "npm start"
       }
     ],
@@ -60,13 +60,13 @@
       {
         "server": "43.134.25.20",
         "serverCredential": "cred_super_secret",
-        "deployPath": "/home/personal-portofolio",
+        "deployPath": "/home/ubuntu/personal-portofolio",
         "execCommand": "npm start"
       },
       {
         "server": "43.134.25.20",
         "serverCredential": "cred_super_secret",
-        "deployPath": "/home/personal-portofolio",
+        "deployPath": "/home/ubuntu/personal-portofolio",
         "execCommand": "npm start"
       }
     ],

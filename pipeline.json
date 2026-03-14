@@ -1,0 +1,61 @@
+  {
+    "appName": "personal-portofolio",
+    "projectName": "jakarta-project",
+    "nexusGroup": "jakarta-project",
+    "nexusProject": "jakarta-project",
+    "nexusRepository": "jp-snapshot",
+  
+    "packaging": {
+        "enabled": true,
+        "outputName": "personal-portofolio",
+        "format": "zip",
+        "axwayCompatible": true,
+        "outputPath": "artifacts",
+        "tempPath": ".packaging-temp",
+        "excludePatterns": [
+          "pipeline.json",
+          ".git/**"
+        ],
+        "includePatterns": ["*"]
+    },
+  
+    "sonarScanner": {
+      "enabled": true,
+      "projectKey": "personal-portofolio",
+      "projectName": "jakarta-project",
+      "sources": ".",
+      "exclusions": "**/node_modules/**,**/dist/**,**/coverage/**,**/*.test.ts,**/*.spec.ts",
+      "waitForQualityGate": true,
+      "mainBranches": ["main","master","develop"]
+    },
+  
+    "DEV": {
+      "appServers": [
+        {
+          "server": "43.134.25.20",
+          "serverCredential": "cred_super_secret",
+          "deployPath": "/home/personal-portofolio",
+          "execCommand": "npm start"
+        }
+      ],
+      "enabled": "true"
+    },
+  
+    "PROD": {
+      "appServers": [
+        {
+          "server": "43.134.25.20",
+          "serverCredential": "cred_super_secret",
+          "deployPath": "/home/personal-portofolio",
+          "execCommand": "npm start"
+        },
+        {
+          "server": "43.134.25.20",
+          "serverCredential": "cred_super_secret",
+          "deployPath": "/home/personal-portofolio",
+          "execCommand": "npm start"
+        }
+      ],
+      "enabled": "true"
+    }
+  }

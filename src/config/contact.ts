@@ -7,17 +7,17 @@ export const contactConfig = {
   social: [
     {
       name: "Twitter",
-      url: "https://twitter.com/yourusername",
+      url: "https://x.com/JimmiPangg",
       icon: "twitter"
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourusername",
+      url: "https://linkedin.com/in/jimmipangalinan",
       icon: "linkedin"
     },
     {
       name: "GitHub",
-      url: "https://github.com/yourusername",
+      url: "https://github.com/jimmypangalinan",
       icon: "github"
     }
   ]

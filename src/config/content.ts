@@ -8,8 +8,8 @@ export const siteConfig = {
     about: "About"
   },
   home: {
-    greeting: "Hello, I'm Kai.",
-    description: "A passionate frontend developer with a keen eye for design and a love for creating beautiful, functional web experiences.",
+    greeting: "Hello, I'm Jimmi.",
+    description: "A passionate DevOps engineer with a strong focus on automation, scalability, and building reliable, efficient infrastructure.",
     buttons: {
       viewProjects: "View Projects",
       readPosts: "Read Posts"

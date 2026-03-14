@@ -73,7 +73,7 @@ export default function HomeContent() {
     <div className="flex-1 flex items-center" style={{ transform: 'translateY(-50px)' }}>
       <div className="flex flex-row items-center justify-between w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 gap-12">
         <div className="w-[45%] text-left">
-          <h1 className="text-3xl font-bold tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
+          <h1 className="whitespace-pre-line text-3xl font-bold tracking-tight text-neutral-900 dark:text-white sm:text-4xl">
             {homeConfig.greeting}
           </h1>
           <p className="mt-3 text-lg leading-7 text-neutral-600 dark:text-neutral-400">

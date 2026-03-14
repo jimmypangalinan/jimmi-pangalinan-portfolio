@@ -16,7 +16,7 @@
       ".git/**"
     ],
     "includePatterns": [
-      "*"
+      "."
     ]
   },
   "sonarScanner": {

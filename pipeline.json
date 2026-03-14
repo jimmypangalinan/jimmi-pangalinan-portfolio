@@ -1,9 +1,21 @@
 {
   "appName": "personal-portofolio",
   "projectName": "jakarta-project",
-  "nexusGroup": "jakarta-project",
+  
+  "nexusGroup": "jpangalinan-poc",
   "nexusProject": "jakarta-project",
   "nexusRepository": "jp-snapshot",
+
+  "build": {
+    "enabled": true,
+    "type": "nextjs",
+    "builderImage": "node:20-alpine",
+    "commands": {
+      "install": "npm ci --omit=dev",
+      "build": "npm run build"
+    }
+  },
+
   "packaging": {
     "enabled": true,
     "outputName": "personal-portofolio",

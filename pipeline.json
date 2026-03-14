@@ -11,7 +11,7 @@
     "type": "nextjs",
     "builderImage": "node:20-alpine",
     "commands": {
-      "install": "npm ci --omit=dev",
+      "install": "npm ci",
       "build": "npm run build"
     }
   },

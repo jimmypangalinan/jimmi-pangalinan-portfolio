@@ -137,5 +137,4 @@ The blog system supports:
 ISC
 
 ## Author
-
-[Your Name]
+Jimmi Pangalinan

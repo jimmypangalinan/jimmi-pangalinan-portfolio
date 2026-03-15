@@ -51,7 +51,7 @@
         "server": "43.134.25.20",
         "serverCredential": "cred_super_secret",
         "deployPath": "/home/ubuntu/personal-portofolio",
-        "execCommand": "cd /home/ubuntu/personal-portofolio && pm2 start npm --name personal-portfolio -- start"
+       "execCommand": "cd /home/ubuntu/personal-portofolio && pm2 delete personal-portfolio || true && pm2 start \"serve -s out -l 80\" --name personal-portfolio"
       }
     ],
     "enabled": "true"

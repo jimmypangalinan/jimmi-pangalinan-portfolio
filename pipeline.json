@@ -19,7 +19,7 @@
   "packaging": {
     "enabled": true,
     "outputName": "personal-portofolio",
-    "format": "zip",
+    "format": "tar.gz",
     "axwayCompatible": true,
     "outputPath": "artifacts",
     "tempPath": ".packaging-temp",

@@ -50,7 +50,7 @@
         "server": "43.134.25.20",
         "serverCredential": "cred_super_secret",
         "deployPath": "/home/ubuntu/personal-portofolio",
-        "execCommand": "npm start"
+        "execCommand": "cd /home/ubuntu/personal-portofolio && pm2 start npm --name personal-portfolio -- start"
       }
     ],
     "enabled": "true"

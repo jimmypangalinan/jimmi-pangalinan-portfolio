@@ -28,7 +28,8 @@
       ".git/**"
     ],
     "includePatterns": [
-      "."
+      ".",
+      ".next/**"
     ]
   },
   "sonarScanner": {
